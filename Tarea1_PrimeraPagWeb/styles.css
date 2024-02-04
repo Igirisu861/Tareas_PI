@@ -1,3 +1,34 @@
-h1{
-    font-family: 'Josefin Sans', sans-serif;
+body{
+    background-color: #161511
 }
+
+#mainTitle{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Josefin Sans Bold 700', sans-serif;
+}
+
+#subtitles{
+    text-align: center;
+    color:#ca242b;
+    font-family: 'Josefin Sans ExtraLight 200 Italic', sans-serif;
+}
+
+div {
+    align-items: center;
+    border: solid 3px;
+    padding: 1em;
+    max-width: 100%;
+  }
+  .container {
+    border-color: #eeda4b;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8em;
+  }
+  #logo{
+    max-width: 50%;
+    max-height: 50%;
+  }
