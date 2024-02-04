@@ -11,15 +11,21 @@ body{
 #subtitles{
     text-align: center;
     color:#ca242b;
-    font-family: 'Josefin Sans ExtraLight 200 Italic', sans-serif;
+    font-family: 'Josefin Slab', serif;
 }
 
+h5{
+    color:aliceblue;
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+}
 div {
     align-items: center;
     border: solid 3px;
     padding: 1em;
     max-width: 100%;
   }
+  
   .container {
     border-color: #eeda4b;
     
@@ -31,4 +37,8 @@ div {
   #logo{
     max-width: 50%;
     max-height: 50%;
+  }
+
+  .separador{
+    border-top: 3px dotted #bbb;
   }
