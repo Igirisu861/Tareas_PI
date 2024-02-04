@@ -1,44 +1,74 @@
 body{
-    background-color: #161511
+    background-color:  #ca242b;
 }
-
+#banner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 #mainTitle{
     color: aliceblue;
     text-align: center;
     font-family: 'Josefin Sans Bold 700', sans-serif;
 }
 
-#subtitles{
+.subtitles{
+    background-color: #eeda4b;
+    height: 2em;
+    padding: 1em;
     text-align: center;
-    color:#ca242b;
+    color:#161511;
     font-family: 'Josefin Slab', serif;
 }
+
+a:link{
+  color: aliceblue;
+}
+
 
 h5{
     color:aliceblue;
     text-align: center;
     font-family: 'Josefin Slab', serif;
 }
-div {
-    align-items: center;
-    border: solid 3px;
-    padding: 1em;
-    max-width: 100%;
-  }
-  
-  .container {
-    border-color: #eeda4b;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 8em;
-  }
-  #logo{
-    max-width: 50%;
-    max-height: 50%;
-  }
 
-  .separador{
-    border-top: 3px dotted #bbb;
+
+.container {
+  align-items: center;
+  border: solid 3px;
+  padding: 1em;
+  max-width: 100%;
+  border-color: #eeda4b;
+  display: flex;
+  justify-content: center;
+  height: 8em;
+}
+#logo{
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.separador{
+  border-top: 3px dotted #bbb;
+}
+
+.images{
+  background-color:#161511;
+  height: 25em;
+  padding: 3em;
+  
+  #Charles{
+    float: left;
+    max-width: 25em;
+    max-height: 25em;
   }
+  #Carlos{
+    float: right;
+    max-width: 25em;
+    max-height: 25em;
+  }
+}
+
+  
+  
