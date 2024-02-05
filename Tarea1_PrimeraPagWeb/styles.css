@@ -10,7 +10,34 @@ body{
 #mainTitle{
     color: aliceblue;
     text-align: center;
+    font-size: 3.5em;
     font-family: 'Josefin Sans Bold 700', sans-serif;
+}
+
+.botones button {
+  background-color: #eeda4b;
+  border: 1px solid #eeda4b;
+  color: #161511;
+  font-family: 'Josefin Sans Bold 700', sans-serif;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+}
+.botones:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.botones button:hover {
+  background-color:aliceblue;
+  color: #161511;
+}
+
+#otherTitles{
+  color: aliceblue;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Josefin Sans Bold 700', sans-serif;
 }
 
 .subtitles{
@@ -23,7 +50,7 @@ body{
 }
 
 a:link{
-  color: aliceblue;
+  color:  #ca242b;
 }
 
 
@@ -45,8 +72,8 @@ h5{
   height: 8em;
 }
 #logo{
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .separador{
@@ -55,20 +82,46 @@ h5{
 
 .images{
   background-color:#161511;
-  height: 25em;
+  height: 35em;
   padding: 3em;
   
   #Charles{
-    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 25em;
     max-height: 25em;
   }
   #Carlos{
-    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 25em;
     max-height: 25em;
   }
+  #Vasseur{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25em;
+    max-height: 25em;
+  }
+  #car{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 35em;
+    max-height: 35em;
+  }
 }
 
-  
-  
+.Info{
+  font-size:1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Slab', serif;
+  color: aliceblue;
+  align-items: center;
+}
+
+

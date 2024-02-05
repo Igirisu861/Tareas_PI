@@ -21,9 +21,14 @@
 
 </head>
 <body>
-    
+    <!--
+        banner de arriba
+    -->
     <img id=banner src="banner.jpg" alt="banner">
     <br>
+    <!--
+        container con título. Misma clase que el de los pilotos
+    -->
     <div class = container>
         <img id= logo src="ferrariLogo.png" alt="logo ferrari">
         <h1 id=mainTitle>
@@ -31,29 +36,54 @@
         </h1>
         <img id= logo src="ferrariLogo.png" alt="logo ferrari">
     </div>
-    
+
+    <br>
+    <!--
+        botones, no funcionan, pero ahí están
+    -->
+    <div class="botones">
+        <button>Historia</button>
+        <button>Garage</button>
+        <button>Temporadas en F1</button>
+      </div>
+
     <br><br><br>
+
     <hr class=separador>
     <br><br>
 
+    <!--
+        texto de abajo
+    -->
     <h2 class="subtitles">
         Las noticias sobre 
         <a href="https://www.bbc.com/sport/formula1/68163799">Lewis Hamilton </a>
         fueron tan sorprendentes, que se me ocurrió hacer una página sobre Ferrari
     </h2>
 
+    <!--
+        texto pequeño
+    -->
     <h5>(Y, como puede notar, profe, no sé diseñar páginas web)</h5>
     
+    <!--
+        segundo container con el otro título
+    -->
     <div class = container>
-        <h2 id="mainTitle">Pilotos de Fórmula 1 actuales</h2>
+        <h2 id=otherTitles>Pilotos de Fórmula 1 actuales</h2>
     </div>
 
+    <!--
+        div con las fotos e info de un piloto
+    -->
     <div class = images>
         <img id=Charles src="leclerc.jpg" alt="Charles Leclerc">
-        <img id=Carlos src="sainz.jpg" alt="Carlos Sainz">
-    </div>
-    <div>
-        <table id=CharlesInfo>
+        <hr class=separador>
+        <table class=Info>
+            <tr>
+                <th>Nombre:</th>
+                <th>Charles Marc Hervé Perceval Leclerc</th>
+            </tr>
             <tr>
                 <th>País de origen:</th>
                 <th>Mónaco</th>
@@ -62,11 +92,118 @@
                 <th>Edad:</th>
                 <th>26 años</th>
             </tr>
+            <tr>
+                <th>Número:</th>
+                <th>16</th>
+            </tr>
+            <tr>
+                <th>En Ferrari desde:</th>
+                <th>2019</th>
+            </tr>
+            <tr>
+                <th>Ingeniero de carrera:</th>
+                <th>Marcos Padros</th>
+            </tr>
+
         </table>
     </div>
-    
+    <!--
+        div con las fotos e info del otro piloto
+    -->
+    <div class=images>
+        <img id=Carlos src="sainz.jpg" alt="Carlos Sainz">
+        <hr class=separador>
+        <table class=Info>
+            <tr>
+                <th>Nombre:</th>
+                <th>Carlos Sainz Vázquez de Castro</th>
+            </tr>
+            <tr>
+                <th>País de origen:</th>
+                <th>España</th>
+            </tr>
+            <tr>
+                <th>Edad:</th>
+                <th>29 años</th>
+            </tr>
+            <tr>
+                <th>Número:</th>
+                <th>55</th>
+            </tr>
+            <tr>
+                <th>En Ferrari desde:</th>
+                <th>2021</th>
+            </tr>
+            <tr>
+                <th>Ingeniero de carrera:</th>
+                <th>Riccardo Adami</th>
+            </tr>
+        </table>
+    </div>
 
-    
+
+    <div class = container>
+        <h2 id=otherTitles>Director actual del equipo</h2>
+    </div>
+
+    <div class=images>
+        <img id=Vasseur src="vasseur.jpg" alt="Frédéric Vasseur">
+        <hr class=separador>
+        <table class=Info>
+            <tr>
+                <th>Nombre:</th>
+                <th>Frédéric Vasseur</th>
+            </tr>
+            <tr>
+                <th>País de origen:</th>
+                <th>Francia</th>
+            </tr>
+            <tr>
+                <th>Edad:</th>
+                <th>55 años</th>
+            </tr>
+            <tr>
+                <th>Director de equipo desde:</th>
+                <th>2023</th>
+            </tr>
+            <tr>
+                <th>Predecesor:</th>
+                <th>Mattia Binotto</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class = container>
+        <h2 id=otherTitles>Último vehículo usado</h2>
+    </div>
+
+    <div class=images>
+        <img id=car src="Car.jpeg" alt="Frédéric Vasseur">
+        <hr class=separador>
+        <table class=Info>
+            <tr>
+                <th>Modelo:</th>
+                <th>Ferrari SF-23</th>
+            </tr>
+            <tr>
+                <th>Motor:</th>
+                <th>Ferrari 066/10</th>
+            </tr>
+            <tr>
+                <th>Debut:</th>
+                <th>2023 Gran Premio de Bahrein</th>
+            </tr>
+            <tr>
+                <th>1ra victoria:</th>
+                <th>   2023 Gran Premio de Singapur</th>
+            </tr>
+            <tr>
+                <th>Predecesor:</th>
+                <th>Ferrari F1-75</th>
+            </tr>
+
+        </table>
+    </div>
 
 
 </body>
